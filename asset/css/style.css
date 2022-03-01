@@ -271,3 +271,34 @@ header nav .ms-button {
 #ps5-section #ps5-pieces .col img {
     margin-bottom: 20px;
 }
+
+
+
+
+
+/* sezione it takes two */
+
+#takes-two {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+#takes-two .container .row div img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+#takes-two h2, #takes-two p {
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+#takes-two .ms-button .ms-button-inside {
+    background-color: #cd3d0f;
+} 
+
+#takes-two .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #cd3d0f;
+}
