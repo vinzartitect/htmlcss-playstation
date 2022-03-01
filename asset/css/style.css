@@ -342,3 +342,56 @@ header nav .ms-button {
     border-radius: 30px;
     transition: all .2s ease;
 }
+
+
+
+
+
+/* sezione ps4 */
+
+#ps4-section {
+    padding: 50px 0;
+}
+
+.ms-wrapper {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#ps4-section h3 {
+    color: #727272;
+}
+
+#ps4-section .ms-wrapper {
+    margin-bottom: 50px;
+}
+
+#ps4-section .ms-wrapper h2 {
+    margin-bottom: 30px;
+}
+
+#ps4-section .container .row .col {
+    margin-bottom: 50px;
+}
+
+#ps4-section .container .row .col img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#ps4-section .container .row .col h2 {
+    margin-bottom: 20px;
+}
+
+#ps4-section .container .row .col h3 {
+    margin-bottom: 20px;
+}
+
+#ps4-section .ms-button .ms-button-inside {
+    background-color: #2d64e6;
+} 
+
+#ps4-section .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #2d64e6;
+}
