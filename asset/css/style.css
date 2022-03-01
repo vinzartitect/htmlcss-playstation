@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 
 
@@ -39,18 +42,20 @@
 
 
 
+
+
+/* header in alto fixata */
+
 /* barra in alto nera logo sony */
 
-.bg_black {
+.sony_band  {
     background-color: black;
 }
-
+      
 .sony_band img {
     height: 40px;
     padding: 10px;
 }
-
-
 
 /* header barra di navigazione */
 
@@ -58,7 +63,30 @@
     height: 70px;
 }
 
-.logo_lens img {
+header .navbar {
+    background-color: #ffffff;
+}
+
+header nav div ul#navbarNav li.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+header nav div div#navbarNav li.nav-item a {
+    color: #000000;
+}
+
+header nav div div#navbarNav li.nav-item a:hover {
+    color: #2d64e6;
+}
+
+@media (min-width: 992px) {
+    header nav div div#navbarNav:last-child li.nav-item:last-child {
+        margin: 0 0 0 10px;
+    } 
+}
+
+header nav div ul.navbar-nav:last-child li.nav-item:last-child img {
     height: 30px;
 }
 
@@ -66,11 +94,4 @@ header nav .ms-button {
     width: 100%;
     text-align: center;
     color: #ffffff !important;
-}
-
-
-
-
-.container-fluid {
-    border: 2px solid red;
 }
