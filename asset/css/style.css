@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* barra in alto nera logo sony */
+
+.bg_black {
+    background-color: black;
+}
+
+.sony_band img {
+    height: 40px;
+    padding: 10px;
+}
