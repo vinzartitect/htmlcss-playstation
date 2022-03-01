@@ -153,3 +153,36 @@ header nav .ms-button {
 #jumbo-section .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #cd3d0f;
 }
+
+
+
+
+
+/* sezione jumbo 6 giochi */
+
+/* thumbnail giochi */
+
+#jumbogames-section > .container {
+    padding: 50px 0;
+}
+
+#jumbogames-section > .container .row .col {
+    margin-bottom: 10px;
+}
+
+#jumbogames-section > .container .row .col .ms-img-container {
+    padding: 5px;
+    border-radius: 15px;
+    transition: all .2s ease;
+}
+
+#jumbogames-section > .container .row .col .ms-img-container:hover {
+    box-shadow: 0 0 0 2px #2d64e6;
+}
+
+#jumbogames-section > .container .row .col .ms-img-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
