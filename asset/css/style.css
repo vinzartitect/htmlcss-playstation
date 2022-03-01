@@ -186,3 +186,88 @@ header nav .ms-button {
 }
 
 
+
+
+
+/* sezione ps5 */
+
+#ps5-section {
+    margin-bottom: 150px;
+}
+
+#ps5-section div.container:first-child {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#ps5-section div.container h2 {
+    color: #1f1f1f;
+    margin-bottom: 30px;
+}
+
+#ps5-section div.container h3 {
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+#ps5-section div.container h4 {
+    color: #2d64e6;
+}
+
+#ps5-section div.container:last-child .row {
+    align-items: center;
+}
+
+#ps5-section img {
+    width: 100%;
+}
+
+#ps5-section .ms-button .ms-button-inside {
+    background-color: #2d64e6;
+} 
+
+#ps5-section .ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #2d64e6;
+}
+
+
+
+/* ps5 accessori */
+
+#ps5-section #ps5-pieces {
+    align-items: stretch;
+}
+
+#ps5-section #ps5-pieces .col {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#ps5-section #ps5-pieces .col a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#ps5-section #ps5-pieces .ms-ps5-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    z-index: 1;
+    transition: all .2s ease;
+}
+
+#ps5-section #ps5-pieces .col:hover {
+    border-bottom: 2px solid #2d64e6;
+}
+
+#ps5-section #ps5-pieces .col:hover .ms-ps5-overlay {
+    display: none;
+}
+
+#ps5-section #ps5-pieces .col img {
+    margin-bottom: 20px;
+}
