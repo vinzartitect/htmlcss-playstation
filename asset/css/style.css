@@ -302,3 +302,43 @@ header nav .ms-button {
 #takes-two .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #cd3d0f;
 }
+
+
+
+
+
+/* sezione nuove uscite */
+
+#new-release {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+#new-release h2, #new-release h3 {
+    margin-bottom: 20px;
+}
+
+#new-release .container .row {
+    padding-top: 20px;
+}
+
+#new-release .container .row .col {
+    margin-bottom: 30px;
+}
+
+#new-release .container .row .col a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#new-release .container .row .col a:hover img {
+    transform: scale(1.03);
+}
+
+#new-release .container .row .col a img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    transition: all .2s ease;
+}
