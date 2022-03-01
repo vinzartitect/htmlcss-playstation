@@ -1,7 +1,40 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+/* bottone ideatipo */
+
+.ms-button {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.ms-button:hover {
+    color: #ffffff;
+}
+
+.ms-button:hover .ms-button-border {
+    box-shadow: 0 0 0 2px #363636;
+}
+
+.ms-button .ms-button-border {
+    padding: 2px;
+    box-shadow: none;
+    border-radius: 30px;
+    transition: all .2s ease;
+}
+
+.ms-button .ms-button-inside {
+    background-color: #363636;
+    padding: 5px 15px;
+    border-radius: 30px;
 }
 
 
@@ -15,4 +48,29 @@
 .sony_band img {
     height: 40px;
     padding: 10px;
+}
+
+
+
+/* header barra di navigazione */
+
+.logo_ps img {
+    height: 70px;
+}
+
+.logo_lens img {
+    height: 30px;
+}
+
+header nav .ms-button {
+    width: 100%;
+    text-align: center;
+    color: #ffffff !important;
+}
+
+
+
+
+.container-fluid {
+    border: 2px solid red;
 }
