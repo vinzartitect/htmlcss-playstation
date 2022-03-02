@@ -546,3 +546,52 @@ header nav .ms-button {
 #social-media div a:hover img {
     transform: scale(1.03);
 }
+
+
+
+
+
+/* sezione footer */
+
+footer {
+    background-color: #00439c;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer #ps-logo-footer img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer #language-selector img {
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+footer #footer-nav .row {
+    margin-bottom: 50px;
+}
+
+footer #footer-nav ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer .container > div.row:nth-child(2) img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+footer .container > div.row:nth-child(2) p {
+    font-size: 1rem;
+}
+
+footer .container > div.row:nth-child(2) p a {
+    text-decoration: underline;
+}
