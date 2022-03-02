@@ -22,6 +22,12 @@ p {
     font-size: 1.2rem;
 }
 
+.ms-wrapper {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 
 
@@ -353,12 +359,6 @@ header nav .ms-button {
     padding: 50px 0;
 }
 
-.ms-wrapper {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-}
-
 #ps4-section h3 {
     color: #727272;
 }
@@ -439,4 +439,42 @@ header nav .ms-button {
 
 #ps-plus .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #d9dadc;
+}
+
+
+
+
+
+/* sezione sconti */
+
+#discounts{
+    padding: 100px 0;
+}
+
+#discounts h3 {
+    color: #727272;
+}
+
+#discounts .ms-wrapper {
+    margin-bottom: 50px;
+}
+
+#discounts .ms-wrapper h2 {
+    margin-bottom: 30px;
+}
+
+#discounts .container .row .col img {
+    margin-bottom: 50px;
+    max-width: 100%;
+    transition: all .2s ease;
+}
+
+@media (min-width: 768px) {
+    #discounts .container .row .col img {
+        margin-bottom: 0;
+    }
+}
+
+#discounts .container .row .col a:hover img {
+    transform: scale(1.02);
 }
