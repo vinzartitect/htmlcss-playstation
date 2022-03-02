@@ -524,3 +524,25 @@ header nav .ms-button {
 #ps-now .ms-button:hover .ms-button-border {
     box-shadow: 0 0 0 2px #f5f5f5;
 }
+
+
+
+
+
+/* sezione social media  */
+
+#social-media {
+    padding: 100px 0;
+}
+
+#social-media h2 {
+    margin-bottom: 100px;
+}
+
+#social-media div img {
+    transition: all .2s ease;
+}
+
+#social-media div a:hover img {
+    transform: scale(1.03);
+}
