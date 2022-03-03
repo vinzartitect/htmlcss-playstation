@@ -126,15 +126,15 @@ header nav div div#navbarNav li.nav-item a::after {
     display: none;
 }
 
-header nav div div#navbarNav li.nav-item a img:nth-child(2) {
+header nav div div#navbarNav li.nav-item a .arrow_blu {
     display: none;
 }
 
-header nav div div#navbarNav > li.nav-item a:hover img:nth-child(1) {
+header nav div div#navbarNav > li.nav-item a:hover .arrow_grey {
     display: none;
 }
 
-header nav div div#navbarNav > li.nav-item a:hover img:nth-child(2) {
+header nav div div#navbarNav > li.nav-item a:hover .arrow_blu {
     display: inline-block;
 }
 
