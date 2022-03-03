@@ -130,11 +130,11 @@ header nav div div#navbarNav li.nav-item a .arrow_blu {
     display: none;
 }
 
-header nav div div#navbarNav > li.nav-item a:hover .arrow_grey {
+header nav div div#navbarNav li.nav-item a:hover .arrow_grey {
     display: none;
 }
 
-header nav div div#navbarNav > li.nav-item a:hover .arrow_blu {
+header nav div div#navbarNav li.nav-item a:hover .arrow_blu {
     display: inline-block;
 }
 
